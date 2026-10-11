@@ -1,1 +1,2 @@
-Do not forger, use sudo python3 main.py -t target.com
+it made 95% from gemini :)
+to use is : sudo python3 main.py -u https://example.com
