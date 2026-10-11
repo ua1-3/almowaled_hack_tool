@@ -1,4 +1,3 @@
-
 import sys
 import shutil
 import subprocess
@@ -37,3 +36,9 @@ print("\n[+] Environment is ready! Starting scanner...")
 
 import requests
 from colorama import fore, Style
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-u", "--url", required=True, help="Target URL")
+args = parser.parse_args()
+
+url = args.url
